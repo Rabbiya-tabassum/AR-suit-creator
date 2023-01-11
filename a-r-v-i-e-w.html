@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./a-r-v-i-e-w.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=AmstelvarAlpha:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <form class="ar-view">
+      <img class="ar-view-child" alt="" src="public/vector-6.svg" /><img
+        class="image-16-icon1"
+        alt=""
+        src="public/image-16@2x.png"
+        id="image16Icon"
+      />
+      <div class="disable-account" id="disableAccountText">Disable account</div>
+      <div class="fusion-all-stars">Fusion All stars</div>
+      <div class="previous-orders">previous orders</div>
+      <img class="image-19-icon" alt="" src="public/image-19@2x.png" />
+      <div class="make-an-order-container">
+        <span class="span"> </span
+        ><span class="make-an-order">Make an order</span>
+      </div>
+      <div class="you-have-no">
+        you have no previous orders.Once you submit an order they will show
+        here.
+      </div>
+      <div class="current-orders">
+        <p class="current-orders1">current orders</p>
+      </div>
+      <div class="attempts">Attempts</div>
+      <div class="ar-view-item"></div>
+      <img class="image-18-icon" alt="" src="public/image-6@2x.png" /><img
+        class="image-19-icon1"
+        alt=""
+        src="public/image-7@2x.png"
+      /><img class="image-20-icon" alt="" src="public/image-8@2x.png" /><img
+        class="image-21-icon"
+        alt=""
+        src="public/image-10@2x.png"
+      /><img
+        class="image-22-icon"
+        alt=""
+        src="public/image-11@2x.png"
+        id="image22Icon"
+      />
+      <div class="ar-view-inner"></div>
+      <div class="submit-order" id="submitOrderText">Submit Order</div>
+    </form>
+
+    <script>
+      var image16Icon = document.getElementById("image16Icon");
+      if (image16Icon) {
+        image16Icon.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var disableAccountText = document.getElementById("disableAccountText");
+      if (disableAccountText) {
+        disableAccountText.addEventListener("click", function (e) {
+          window.location.href = "./disable-account-1.html";
+        });
+      }
+      
+      var image22Icon = document.getElementById("image22Icon");
+      if (image22Icon) {
+        image22Icon.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var submitOrderText = document.getElementById("submitOrderText");
+      if (submitOrderText) {
+        submitOrderText.addEventListener("click", function (e) {
+          window.location.href = "./disable-account-1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

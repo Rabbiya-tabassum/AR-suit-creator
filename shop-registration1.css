@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.switch-to-professional1 {
+  position: absolute;
+  top: 15px;
+  left: 63px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 207px;
+  height: 16px;
+}
+.image-16-icon3,
+.vector-icon {
+  position: absolute;
+  top: 574.5px;
+  left: 1px;
+  width: 359px;
+  height: 1px;
+}
+.image-16-icon3 {
+  top: 15px;
+  left: 7px;
+  width: 25px;
+  height: 19px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.enter-shop-name {
+  position: absolute;
+  top: 54px;
+  left: 63px;
+  color: var(--color-gray-200);
+}
+.shop-registration-child1 {
+  position: absolute;
+  top: 68px;
+  left: 63px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 23px;
+}
+.ar-suit-creators {
+  position: absolute;
+  top: 73px;
+  left: 67px;
+}
+.enter-shop-email {
+  position: absolute;
+  top: 165px;
+  left: 63px;
+  color: var(--color-gray-200);
+}
+.shop-registration-child2 {
+  position: absolute;
+  top: 179px;
+  left: 63px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 23px;
+}
+.enter-shop-phone {
+  position: absolute;
+  top: 128px;
+  left: 63px;
+  color: var(--color-gray-200);
+}
+.shop-registration-child3 {
+  position: absolute;
+  top: 142px;
+  left: 63px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 23px;
+}
+.div {
+  position: absolute;
+  top: 147px;
+  left: 67px;
+}
+.enter-shop-location {
+  position: absolute;
+  top: 91px;
+  left: 63px;
+  color: var(--color-gray-200);
+}
+.shop-registration-child4 {
+  position: absolute;
+  top: 105px;
+  left: 63px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 23px;
+}
+.rectangle-icon,
+.the-centaurus-mall {
+  position: absolute;
+  top: 110px;
+  left: 67px;
+}
+.rectangle-icon {
+  top: 225px;
+  left: 56px;
+  border-radius: var(--br-md);
+  width: 205px;
+  height: 38px;
+}
+.register {
+  position: absolute;
+  top: 234px;
+  left: 119px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  cursor: pointer;
+}
+.arsuitcreatorsgmailcom {
+  position: absolute;
+  top: 184px;
+  left: 67px;
+}
+.shop-registration1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}

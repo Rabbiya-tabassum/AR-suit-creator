@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-abhaya-libre: "Abhaya Libre";
+  --font-amstelvaralpha: AmstelvarAlpha;
+  --font-atkinson-hyperlegible: "Atkinson Hyperlegible";
+
+  /* font sizes */
+  --font-size-sm: 10px;
+  --font-size-base: 12px;
+  --font-size-lg: 14px;
+  --font-size-xl: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-indigo-100: #6361dd;
+  --color-indigo-200: #4946d7;
+  --color-indigo-300: #2f2cd2;
+  --color-gray-100: #d9d9d9;
+  --color-gray-200: #757e74;
+  --color-green-100: #107e06;
+
+  /* border radiuses */
+  --br-md: 5px;
+}

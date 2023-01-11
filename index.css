@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.sign-up-child,
+.sign-up-item {
+  position: absolute;
+  top: 365px;
+  left: 73px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 205px;
+  height: 38px;
+}
+.sign-up-item {
+  top: 458px;
+}
+.confirm-password {
+  position: absolute;
+  top: 470px;
+  left: 78px;
+}
+.sign-up-child1,
+.sign-up-child2,
+.sign-up-inner {
+  position: absolute;
+  top: 271px;
+  left: 73px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 205px;
+  height: 38px;
+}
+.sign-up-child1,
+.sign-up-child2 {
+  top: 411px;
+}
+.sign-up-child2 {
+  top: 317px;
+}
+.enter-first-name,
+.enter-last-name {
+  position: absolute;
+  top: 330px;
+  left: 78px;
+}
+.enter-last-name {
+  top: 380px;
+}
+.ar-suit-creator {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.your-digital-tailor {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-green-100);
+  font-family: var(--font-amstelvaralpha);
+}
+.ar-suit-creator-container {
+  position: absolute;
+  top: 214px;
+  left: 129px;
+  display: inline-block;
+  width: 116px;
+  height: 34px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  mix-blend-mode: normal;
+  color: var(--color-indigo-300);
+  font-family: var(--font-atkinson-hyperlegible);
+}
+.image-1-icon {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  width: 170px;
+  height: 146px;
+  object-fit: cover;
+}
+.email-or-phone,
+.sign-up-child3 {
+  position: absolute;
+  top: 283px;
+  left: 78px;
+}
+.sign-up-child3 {
+  top: 507px;
+  left: 73px;
+  border-radius: var(--br-md);
+  width: 205px;
+  height: 38px;
+}
+.sign-up1 {
+  position: absolute;
+  top: 519px;
+  left: 157px;
+  color: var(--color-black);
+  cursor: pointer;
+}
+.sign-up-child4 {
+  position: absolute;
+  top: 592.5px;
+  left: 15px;
+  width: 141px;
+  height: 1px;
+}
+.or {
+  position: absolute;
+  top: 586px;
+  left: 168px;
+  color: var(--color-black);
+}
+.enter-password,
+.sign-up-child5 {
+  position: absolute;
+  top: 423px;
+  left: 78px;
+}
+.sign-up-child5 {
+  top: 592.5px;
+  left: 198px;
+  width: 137px;
+  height: 1px;
+}
+.span1 {
+  color: var(--color-black);
+}
+.sign-in {
+  color: var(--color-green-100);
+}
+.have-an-account-container {
+  position: absolute;
+  top: 600px;
+  left: 115px;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+}
+.signup {
+  position: absolute;
+  top: 252px;
+  left: 147px;
+  color: var(--color-black);
+}
+.sign-up {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-abhaya-libre);
+}

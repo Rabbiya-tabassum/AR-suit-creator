@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.ar-cam-child {
+  position: absolute;
+  top: 577px;
+  left: 139px;
+  background-color: var(--color-gray-100);
+  width: 74px;
+  height: 63px;
+}
+.image-6-icon,
+.image-7-icon {
+  position: absolute;
+  top: 578px;
+  left: 19px;
+  width: 55px;
+  height: 52px;
+  object-fit: cover;
+}
+.image-7-icon {
+  top: 589px;
+  left: 96px;
+  width: 29px;
+  height: 31px;
+}
+.image-10-icon,
+.image-11-icon,
+.image-8-icon {
+  position: absolute;
+  top: 590px;
+  left: 156px;
+  width: 35px;
+  height: 32px;
+  object-fit: cover;
+}
+.image-10-icon,
+.image-11-icon {
+  left: 213px;
+  width: 43px;
+}
+.image-11-icon {
+  top: 584px;
+  left: 278px;
+  width: 46px;
+  height: 43px;
+  cursor: pointer;
+}
+.ar-cam-item,
+.image-17-icon {
+  position: absolute;
+  top: 578.5px;
+  left: 1.5px;
+  width: 357.5px;
+  height: 1px;
+}
+.image-17-icon {
+  top: 0;
+  left: 4px;
+  width: 359px;
+  height: 578px;
+  object-fit: cover;
+}
+.rectangle-div {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  border-radius: var(--br-md);
+  background-color: rgba(99, 97, 221, 0.2);
+  width: 199px;
+  height: 28px;
+}
+.show-measurements {
+  position: absolute;
+  top: 12px;
+  left: 36px;
+  cursor: pointer;
+}
+.ar-cam {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}

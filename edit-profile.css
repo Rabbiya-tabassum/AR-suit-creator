@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.edit-profile-child,
+.edit-profile-inner,
+.edit-profile-item {
+  position: absolute;
+  top: 268px;
+  left: 65px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 23px;
+}
+.edit-profile-inner,
+.edit-profile-item {
+  top: 309px;
+}
+.edit-profile-inner {
+  top: 351px;
+}
+.jorge123gmailcom2 {
+  position: absolute;
+  top: 355px;
+  left: 76px;
+}
+.jorge,
+.jorge-1232 {
+  position: absolute;
+  top: 313px;
+  left: 73px;
+}
+.jorge {
+  top: 272px;
+}
+.email,
+.name,
+.switch-to-professional2,
+.username {
+  position: absolute;
+  top: 295px;
+  left: 73px;
+  color: var(--color-gray-200);
+}
+.email,
+.name,
+.switch-to-professional2 {
+  top: 337px;
+}
+.name,
+.switch-to-professional2 {
+  top: 254px;
+}
+.switch-to-professional2 {
+  top: 384px;
+  color: var(--color-indigo-300);
+  cursor: pointer;
+}
+.image-2-icon {
+  position: absolute;
+  top: 82px;
+  left: 118px;
+  width: 125px;
+  height: 126px;
+  object-fit: cover;
+}
+.edit-picture {
+  position: absolute;
+  top: 208px;
+  left: 152px;
+  color: var(--color-indigo-300);
+}
+.edit-profile1 {
+  position: absolute;
+  top: 15px;
+  left: 63px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 74px;
+  height: 16px;
+}
+.image-3-icon,
+.image-4-icon {
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  width: 24px;
+  height: 21px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-4-icon {
+  left: 316px;
+  width: 18.9px;
+}
+.account-setting {
+  position: absolute;
+  top: 556px;
+  left: 73px;
+  color: var(--color-indigo-200);
+}
+.edit-profile-child1 {
+  position: absolute;
+  top: 574.5px;
+  left: 1px;
+  width: 359px;
+  height: 1px;
+}
+.delete-account4,
+.switch-to-personal,
+.temporarily-disable-account2 {
+  position: absolute;
+  top: 398px;
+  left: 73px;
+  color: var(--color-indigo-200);
+}
+.delete-account4,
+.temporarily-disable-account2 {
+  top: 412px;
+  cursor: pointer;
+}
+.delete-account4 {
+  top: 426px;
+}
+.edit-profile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}

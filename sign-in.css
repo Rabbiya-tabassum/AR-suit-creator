@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.sign-in-child,
+.sign-in-item {
+  position: absolute;
+  top: 367px;
+  left: 78px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 205px;
+  height: 38px;
+}
+.sign-in-item {
+  top: 314px;
+}
+.ar-suit-creator1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.your-digital-tailor1 {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-green-100);
+  font-family: var(--font-amstelvaralpha);
+}
+.ar-suit-creator-container1 {
+  position: absolute;
+  top: 214px;
+  left: 129px;
+  display: inline-block;
+  width: 116px;
+  height: 34px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  mix-blend-mode: normal;
+  color: var(--color-indigo-300);
+  font-family: var(--font-atkinson-hyperlegible);
+}
+.image-1-icon1 {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  width: 170px;
+  height: 146px;
+  object-fit: cover;
+}
+.email-or-username,
+.sign-in-inner {
+  position: absolute;
+  top: 326px;
+  left: 86px;
+}
+.sign-in-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-indigo-300);
+  top: 422px;
+  left: 78px;
+  border-radius: var(--br-md);
+  width: 205px;
+  height: 38px;
+}
+.log-in {
+  position: absolute;
+  top: 434px;
+  left: 164px;
+  color: var(--color-black);
+}
+.get-help-logging {
+  color: var(--color-green-100);
+}
+.span2 {
+  color: #146a06;
+}
+.forgot-your-login-container {
+  position: absolute;
+  top: 468px;
+  left: 86px;
+  font-size: var(--font-size-sm);
+}
+.sign-in-child1 {
+  position: absolute;
+  top: 592.5px;
+  left: 15px;
+  width: 141px;
+  height: 1px;
+}
+.or1 {
+  position: absolute;
+  top: 586px;
+  left: 168px;
+  color: var(--color-black);
+}
+.password,
+.sign-in-child2 {
+  position: absolute;
+  top: 379px;
+  left: 86px;
+}
+.sign-in-child2 {
+  top: 592.5px;
+  left: 198px;
+  width: 137px;
+  height: 1px;
+}
+.span3 {
+  color: var(--color-black);
+}
+.dont-have-an-container {
+  position: absolute;
+  top: 600px;
+  left: 115px;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+}
+.login {
+  position: absolute;
+  top: 283px;
+  left: 159px;
+  color: var(--color-black);
+}
+.sign-in1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-abhaya-libre);
+}

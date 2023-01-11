@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./edit-profile.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=AmstelvarAlpha:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="edit-profile">
+      <div class="edit-profile-child"></div>
+      <div class="edit-profile-item"></div>
+      <div class="edit-profile-inner"></div>
+      <div class="jorge123gmailcom2">Jorge123@gmail.com</div>
+      <div class="jorge-1232">Jorge_123</div>
+      <div class="jorge">Jorge</div>
+      <div class="username">Username</div>
+      <div class="email">Email</div>
+      <div class="name">Name</div>
+      <div class="switch-to-professional2" id="switchToProfessional">
+        Switch to professional account
+      </div>
+      <img class="image-2-icon" alt="" src="public/image-2@2x.png" />
+      <div class="edit-picture">Edit picture</div>
+      <div class="edit-profile1">Edit profile</div>
+      <img
+        class="image-3-icon"
+        alt=""
+        src="public/image-3@2x.png"
+        id="image3Icon"
+      /><img
+        class="image-4-icon"
+        alt=""
+        src="public/image-4@2x.png"
+        id="image4Icon"
+      />
+      <div class="account-setting">Account setting</div>
+      <img class="edit-profile-child1" alt="" src="public/vector-6.svg" />
+      <div class="switch-to-personal">Switch to personal account</div>
+      <div class="temporarily-disable-account2" id="temporarilyDisableAccount">
+        Temporarily disable account?
+      </div>
+      <div class="delete-account4" id="deleteAccountText">Delete account?</div>
+    </div>
+
+    <script>
+      var switchToProfessional = document.getElementById("switchToProfessional");
+      if (switchToProfessional) {
+        switchToProfessional.addEventListener("click", function (e) {
+          window.location.href = "./shop-registration1.html";
+        });
+      }
+      
+      var image3Icon = document.getElementById("image3Icon");
+      if (image3Icon) {
+        image3Icon.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var image4Icon = document.getElementById("image4Icon");
+      if (image4Icon) {
+        image4Icon.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var temporarilyDisableAccount = document.getElementById(
+        "temporarilyDisableAccount"
+      );
+      if (temporarilyDisableAccount) {
+        temporarilyDisableAccount.addEventListener("click", function (e) {
+          window.location.href = "./disable-account.html";
+        });
+      }
+      
+      var deleteAccountText = document.getElementById("deleteAccountText");
+      if (deleteAccountText) {
+        deleteAccountText.addEventListener("click", function (e) {
+          window.location.href = "./delete-account.html";
+        });
+      }
+      </script>
+  </body>
+</html>

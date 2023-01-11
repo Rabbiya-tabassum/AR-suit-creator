@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./shop-registration1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=AmstelvarAlpha:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="shop-registration1">
+      <div class="switch-to-professional1">Switch to professional account</div>
+      <img class="vector-icon" alt="" src="public/vector-6.svg" /><img
+        class="image-16-icon3"
+        alt=""
+        src="public/image-16@2x.png"
+        id="image16Icon"
+      />
+      <div class="enter-shop-name">Enter shop name</div>
+      <div class="shop-registration-child1"></div>
+      <div class="ar-suit-creators">Ar suit creators</div>
+      <div class="enter-shop-email">Enter shop email address</div>
+      <div class="shop-registration-child2"></div>
+      <div class="enter-shop-phone">Enter shop phone number</div>
+      <div class="shop-registration-child3"></div>
+      <div class="div">(051) 2381119</div>
+      <div class="enter-shop-location">Enter shop location</div>
+      <div class="shop-registration-child4"></div>
+      <div class="the-centaurus-mall">The Centaurus Mall, Jinnah Avenue</div>
+      <img class="rectangle-icon" alt="" src="public/rectangle-11.svg" />
+      <div class="register" id="registerText">Register</div>
+      <div class="arsuitcreatorsgmailcom">Arsuitcreators@gmail.com</div>
+    </div>
+
+    <script>
+      var image16Icon = document.getElementById("image16Icon");
+      if (image16Icon) {
+        image16Icon.addEventListener("click", function (e) {
+          window.location.href = "./edit-profile.html";
+        });
+      }
+      
+      var registerText = document.getElementById("registerText");
+      if (registerText) {
+        registerText.addEventListener("click", function (e) {
+          window.location.href = "./shop-registration.html";
+        });
+      }
+      </script>
+  </body>
+</html>

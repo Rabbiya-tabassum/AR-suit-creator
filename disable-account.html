@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./disable-account.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=AmstelvarAlpha:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="disable-account1">
+      <div class="temporarily-disable-account">
+        Temporarily disable account?
+      </div>
+      <img class="disable-account-child" alt="" src="public/vector-6.svg" /><img
+        class="image-16-icon2"
+        alt=""
+        src="public/image-16@2x.png"
+        id="image16Icon"
+      /><img
+        class="disable-account-item"
+        alt=""
+        src="public/rectangle-11.svg"
+      />
+      <div class="disable-account2" id="disableAccountText">
+        Disable account
+      </div>
+      <div class="disable-account-inner"></div>
+      <div class="disable-account-child1"></div>
+      <div class="jorge123gmailcom1">Jorge123@gmail.com</div>
+      <div class="jorge-1231">Jorge_123</div>
+      <div class="enter-your-username1">Enter your username</div>
+      <div class="enter-email1">Enter email</div>
+    </div>
+
+    <script>
+      var image16Icon = document.getElementById("image16Icon");
+      if (image16Icon) {
+        image16Icon.addEventListener("click", function (e) {
+          window.location.href = "./edit-profile.html";
+        });
+      }
+      
+      var disableAccountText = document.getElementById("disableAccountText");
+      if (disableAccountText) {
+        disableAccountText.addEventListener("click", function (e) {
+          window.location.href = "./disable-account-1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

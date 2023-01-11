@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.profile-child,
+.profile-item {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  border-radius: var(--br-md);
+  background-color: var(--color-indigo-100);
+  width: 170px;
+  height: 23px;
+}
+.profile-item {
+  top: 500px;
+  left: 46px;
+  width: 141px;
+  height: 22px;
+}
+.measurements {
+  position: absolute;
+  top: 504px;
+  left: 85px;
+}
+.jorge-1233,
+.jorge1,
+.name1,
+.username1 {
+  position: absolute;
+  top: 54px;
+  left: 23px;
+  color: var(--color-black);
+}
+.jorge1,
+.name1,
+.username1 {
+  top: 197px;
+}
+.name1,
+.username1 {
+  top: 44px;
+  color: var(--color-gray-200);
+}
+.name1 {
+  top: 183px;
+}
+.image-2-icon1 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 112px;
+  height: 110px;
+  object-fit: cover;
+}
+.edit-picture1,
+.profile-inner {
+  position: absolute;
+  top: 234px;
+  left: 156px;
+  cursor: pointer;
+}
+.profile-inner {
+  top: 123px;
+  left: 168px;
+  border-radius: var(--br-md);
+  background-color: var(--color-indigo-100);
+  width: 170px;
+  height: 23px;
+}
+.profile1,
+.view-orders {
+  position: absolute;
+  top: 127px;
+  left: 224px;
+}
+.profile1 {
+  top: 15px;
+  left: 63px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  display: inline-block;
+  width: 74px;
+  height: 16px;
+}
+.image-6-icon1,
+.image-7-icon1 {
+  position: absolute;
+  top: 578px;
+  left: 27px;
+  width: 55px;
+  height: 52px;
+  object-fit: cover;
+}
+.image-7-icon1 {
+  top: 589px;
+  left: 104px;
+  width: 29px;
+  height: 31px;
+}
+.image-10-icon1,
+.image-11-icon1,
+.image-8-icon1 {
+  position: absolute;
+  top: 590px;
+  height: 32px;
+  object-fit: cover;
+}
+.image-8-icon1 {
+  left: 164px;
+  width: 35px;
+  cursor: pointer;
+}
+.image-10-icon1,
+.image-11-icon1 {
+  left: 221px;
+  width: 43px;
+}
+.image-11-icon1 {
+  top: 584px;
+  left: 286px;
+  width: 46px;
+  height: 43px;
+  cursor: pointer;
+}
+.image-16-icon4,
+.profile-child1 {
+  position: absolute;
+  top: 578.5px;
+  left: 1.5px;
+  width: 357.5px;
+  height: 1px;
+}
+.image-16-icon4 {
+  top: 15px;
+  left: 12px;
+  width: 25px;
+  height: 19px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-12-icon,
+.image-13-icon,
+.image-15-icon {
+  position: absolute;
+  top: 321px;
+  left: 38px;
+  width: 154px;
+  height: 173px;
+  object-fit: cover;
+}
+.image-12-icon,
+.image-13-icon {
+  top: 266px;
+  left: 66px;
+  width: 37px;
+  height: 34px;
+}
+.image-12-icon {
+  left: 253px;
+  width: 44px;
+  height: 40px;
+}
+.profile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-abhaya-libre);
+}

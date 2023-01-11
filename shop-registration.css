@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.switch-to-professional {
+  position: absolute;
+  top: 15px;
+  left: 63px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 207px;
+  height: 16px;
+}
+.shop-registration-child {
+  position: absolute;
+  top: 574.5px;
+  left: 1px;
+  width: 359px;
+  height: 1px;
+}
+.shop-registration-item {
+  position: absolute;
+  top: 86px;
+  left: 42px;
+  border-radius: var(--br-md);
+  width: 261px;
+  height: 250px;
+}
+.image-18-icon3 {
+  position: absolute;
+  top: 121px;
+  left: 116px;
+  width: 113px;
+  height: 100px;
+  object-fit: cover;
+}
+.congratulations-your-shop {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.has-been-successfully {
+  margin: 0;
+}
+.congratulations-your-shop-container {
+  position: absolute;
+  top: 269px;
+  left: 73px;
+  display: inline-block;
+  width: 214px;
+  height: 67px;
+}
+.shop-registration-inner {
+  position: absolute;
+  top: 384px;
+  left: 73px;
+  border-radius: var(--br-md);
+  width: 205px;
+  height: 38px;
+}
+.continue2 {
+  position: absolute;
+  top: 393px;
+  left: 145px;
+}
+.shop-registration {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-abhaya-libre);
+}
